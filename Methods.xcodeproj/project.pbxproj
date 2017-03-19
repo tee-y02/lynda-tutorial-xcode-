@@ -194,15 +194,18 @@
 					88FA1A751CD9080C00CA7F46 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 93H7J2T383;
+						LastSwiftMigration = 0800;
 					};
 					88FA1A891CD9080D00CA7F46 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 93H7J2T383;
+						LastSwiftMigration = 0800;
 						TestTargetID = 88FA1A751CD9080C00CA7F46;
 					};
 					88FA1A941CD9080D00CA7F46 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 93H7J2T383;
+						LastSwiftMigration = 0800;
 						TestTargetID = 88FA1A751CD9080C00CA7F46;
 					};
 				};
@@ -406,6 +409,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yusuf.Methods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -417,6 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yusuf.Methods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -428,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yusuf.MethodsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Methods.app/Methods";
 			};
 			name = Debug;
@@ -440,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yusuf.MethodsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Methods.app/Methods";
 			};
 			name = Release;
@@ -451,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yusuf.MethodsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Methods;
 			};
 			name = Debug;
@@ -462,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yusuf.MethodsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Methods;
 			};
 			name = Release;
@@ -485,6 +494,7 @@
 				88FA1AA01CD9080D00CA7F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88FA1AA11CD9080D00CA7F46 /* Build configuration list for PBXNativeTarget "MethodsTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +503,7 @@
 				88FA1AA31CD9080D00CA7F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88FA1AA41CD9080D00CA7F46 /* Build configuration list for PBXNativeTarget "MethodsUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +512,7 @@
 				88FA1AA61CD9080D00CA7F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
